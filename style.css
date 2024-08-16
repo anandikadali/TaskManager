@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Light background color to distinguish the container */
+}
+
+.child-container {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #007bff; /* Blue border to highlight the child container */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for better contrast */
+}
+
+.input-box-container {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #007bff; /* Blue color for headings */
+    margin-bottom: 20px; /* Additional margin below headings */
+    border-bottom: 2px solid #007bff; /* Underline to highlight the headings */
+    padding-bottom: 5px; /* Padding below the heading text */
+}
+
+.add-task-box,
+.task-category,
+.task-date,
+.task-time {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+.get-task-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.get-task-btn i {
+    margin-right: 5px;
+}
+
+.get-task-btn:hover {
+    background-color: #0056b3;
+}
+
+.show-data,
+.completed-data,
+.all-data {
+    margin-top: 20px;
+}
+
+.table-container {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #007bff; /* Blue color for table headers */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
